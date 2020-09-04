@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFFDB"
+    tools:context=".DatosdeProduccion">
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="77dp"
+        android:layout_height="73dp"
+        android:tint="#FF3D00"
+        app:srcCompat="@android:drawable/ic_popup_reminder"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="221dp"
+        android:layout_height="63dp"
+        android:text="MIS DATOS DE PRODUCCION"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FF3D00"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="244dp"
+        android:layout_height="165dp"
+        android:background="#FDFDFC"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
