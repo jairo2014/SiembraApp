@@ -1,9 +1,11 @@
 import androidx.room.ColumnInfo;
 import androidx.room.PrimaryKey;
 
+import java.util.Date;
+
 public class Siembra {
 
-    private string mNombre;
+    private String mNombre;
     private int mCodigoSiembra;
     private Date mfechaSiembra;
     private float mArea;
@@ -12,10 +14,9 @@ public class Siembra {
     private int mCantidadSemilla;
     private int mVariedadSemilla;
     private Date mClima;
-    private
 
-    public String getNombre;
-     return mNombre;
+
+    public String getNombre(){return mNombre;}
     public String getCantidad;
 
     public void getFechaSiembra;
