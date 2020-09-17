@@ -20,9 +20,13 @@ public class Siembra {
     private Date mFechaSiembra;
     @ColumnInfo(name = "area")
     private float mArea;
+    @ColumnInfo(name = "cantidad_abono")
     private int mCantidadAbono;
+    @ColumnInfo(name = "variedad_abono")
     private int mVariedadAbono;
+    @ColumnInfo(name = "cantidad_semilla")
     private int mCantidadSemilla;
+    @ColumnInfo(name = "variedad_semilla")
     private int mVariedadSemilla;
 
     //Getter
@@ -49,4 +53,11 @@ public class Siembra {
     public void setCantidadAbono(int cantidadAbono){
         this.mCantidadAbono = cantidadAbono;
     };
+    public int getmCantidadSemilla(int CantidadSemilla){
+        this.mCantidadSemilla = CantidadSemilla;
+    }
+
+    public int getmVariedadSemilla(int VariedadSemilla){
+        return mVariedadSemilla;
+    }
 }
