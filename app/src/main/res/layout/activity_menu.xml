@@ -16,8 +16,8 @@
         android:textColor="#FF3D00"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="273dp" />
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="421dp" />
 
     <Button
         android:id="@+id/button6"
@@ -28,8 +28,8 @@
         android:textColor="#FF3D00"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="402dp" />
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="502dp" />
 
     <ImageView
         android:id="@+id/imageView"

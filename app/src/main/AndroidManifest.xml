@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DatosdeProduccion"></activity>
+        <activity android:name=".Inicio"></activity>
+        <activity android:name=".DatosdeProduccion" />
         <activity android:name=".Menu" />
-        <activity android:name=".IniciarSesion" />
         <activity android:name=".CrearCuenta" />
         <activity android:name=".MainActivity">
             <intent-filter>

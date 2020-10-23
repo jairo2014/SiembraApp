@@ -54,7 +54,7 @@ public class Siembra {
         this.mCantidadAbono = cantidadAbono;
     };
     public int getmCantidadSemilla(int CantidadSemilla){
-        this.mCantidadSemilla = CantidadSemilla;
+        return mCantidadSemilla;
     }
 
     public int getmVariedadSemilla(int VariedadSemilla){
