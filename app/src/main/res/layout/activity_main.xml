@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/Agropecuario"
+    android:background="@drawable/agro_colombiano"
     tools:context=".MainActivity">
 
     <Button
@@ -18,7 +18,7 @@
         android:onClick="Inicio"
         android:text="INICIAR SESIÒN "
         android:textAlignment="center"
-        android:textColor="#F50057"
+        android:textColor="#00BCD4"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
